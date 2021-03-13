@@ -1,0 +1,134 @@
+/* all items in the main body */
+* {
+  padding: 0;
+  margin: 0;    
+  }
+/* The basic set up of the site is set here */
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: plum;
+  }
+
+  h1 {font-size:200%;
+    font-weight: bold;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,;
+    text-align:left;
+    padding-bottom: 5%;
+    background-color: solid plum ;
+  }
+/* This is the about me section */
+  h2 {font-size: 110%;
+    font-weight: bold;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,;
+    text-align:left;
+    padding-bottom: 5%;
+   
+  }
+
+  nav {
+    list-style-type: none;
+    padding-top: 15px;
+    margin-right: 20px;
+    font-family:monospace;
+    font-size: 18px;
+    font-weight:700;
+    font-style:normal;    
+    text-align: right;
+
+    /* li items are in reference to the nav bar */
+  }
+  li {display: inline;
+  }
+
+  li a {
+    color:darkblue;
+    justify-content: space-between;
+  }
+  li a:hover:not(.active){
+    background-color:darkblue;
+    color:plum;
+  }
+
+  /* Style the header */
+  .header {
+    background-color: navy;
+    color: plum;
+    font-weight: bold;
+    padding: 30px;
+    text-align: left;
+    font-size: 35px;}
+
+    /* flex is used to display horizontally with space between */
+    .row {
+      display: -webkit-flex;
+      display: flex;    
+    }
+
+    .Nish img {
+      width: 100%;
+      height: auto;
+      border-radius: 50%;
+      }
+/* connect and resume images */
+   img {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    align-content: space-between;
+    }
+    
+    .syntax img, .computer img, .calculator {
+      width: 100%;
+      height: auto;
+      border-radius: 50%;
+      align-content: space-between;
+      transition: transform .2s;
+    }
+    /* The hovering effect makes images larger */
+     img:hover {
+              -ms-transform: scale(1.5); 
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5); 
+      }
+
+.column {
+  padding: 15px;
+}
+
+/* Left column */
+.column.side {
+   -webkit-flex: 1;
+   -ms-flex: 1;
+   flex: 1;
+}
+/* Middle column */
+.column.middle {
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+}
+/* The sociall media icon bar is place as the primary means of contact */
+.icon-bar {
+    width: 100%;
+    background-color: darkblue;
+    overflow: auto;
+  }
+  
+  .icon-bar a {
+    float: left; 
+    text-align: center; 
+    width: 20%; 
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font size */
+  }
+  .icon-bar a:hover:not(.active){
+    background-color:darkblue;
+    color:plum;
+  }
+  @media only screen and (max-width:620px) {}
+    .menu, .main, .img {
+      width:100%;
+    }
