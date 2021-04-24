@@ -1,6 +1,6 @@
 /* all items in the main body */
 * {
-   background-color: white;
+  background-color: white;
   padding: 0;
   margin: 0;    
   }
@@ -54,27 +54,56 @@
     background-color: #C9B4B4;
     color: black;
   }
+  main {
+    background-color: #C9B4B4;
+  }
 
-  body, html {
-    height: 100%;
-}
+  .column {
+    float: left;
+    padding: 10px;
+  }
+  
+  /* Left and right column */
+  .column.side {
+    width: 25%;
+  }
+  
+  /* Middle column */
+  .column.middle {
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
-/* The hero image */
-.hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), src="";
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
 
-  /* Set a specific height */
-  height: 50%;
-
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  .Nish {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   position: relative;
-}
-
-
+    
+  }
   
   @media only screen and (max-width:620px) {}
     .menu, .main, .img {
