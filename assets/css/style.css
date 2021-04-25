@@ -96,6 +96,12 @@
   .card-title {
     background-color:#C9B4B4; 
   }
+
+  .btn {
+    background-color:#C9B4B4; 
+    color:black;
+    border-radius: 5px;
+  }
     
 
   .Nish {
