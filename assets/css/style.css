@@ -64,7 +64,8 @@
   
   /* Left and right column */
   .column.side {
-    width: 25%;
+    width: 48%;
+    text-align: center;
   }
   
   /* Middle column */
@@ -80,10 +81,20 @@
   }
 
   .card {
+    margin: 50px;
     border-style: double;
     border-radius: 0%;
     border-color: #C9B4B4;
-    border: width 20px;;
+  }
+
+  .card-body {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(243, 232, 219);
+
+  }
+  .card-title {
+    background-color:#C9B4B4; 
   }
     
 
@@ -94,6 +105,10 @@
   width: 50%;
   position: relative;
     
+  }
+
+  .footer {
+    background-color:rgb(243, 232, 219) ;
   }
   
   @media only screen and (max-width:620px) {}
