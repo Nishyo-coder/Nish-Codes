@@ -1,31 +1,26 @@
-# Nish-Codes
-Welcome to my Creative Space
+# Nish-Codes 
+Nish Codes Now
 ## Description
-The purpose was to use HTML and advanced CSS techniques to build a responsive, mobile-friendly portfolio web app. 
-- The motivation behind this starter website was to hopefully over time demonstrate my growth in coding. 
+Update: This new portfolio is a cleaner and more responsive application that my first go at my portfolio. 
+The purpose was to use HTML and advanced CSS techniques, alternative frameworks and Javascript to build a responsive, mobile-friendly portfolio web app. 
+- The motivation behind this starter website was to hopefully over time demonstrate my growth in coding.
 - I built this starter website as a catalyst for my portfolio.
 - I learned that many techniques can be used to create similar web applications. 
+- Languages Used: HTML, CSS, Javascript
+- Frameworks: Bootstrap, UIKit, JQuery, Google Gonts
 
 ## Installation
-WHEN the user clicks the button to generate a password
-They are presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN the user select which criteria to include in the password
-WHEN prompted for the length of the password
-The user chooses a length of at least 8 characters and no more than 12 characters
-WHEN prompted for character types to include in the password
-The user chooses lowercase, uppercase, numeric, and/or special characters
-WHEN the user answers each prompt
-THEN the input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
+![Screen Shot 2021-04-25 at 3 34 11 PM](https://user-images.githubusercontent.com/79215638/116007027-d0891e00-a5db-11eb-8552-258d7fa88f9a.png)
+
+![Screen Shot 2021-04-25 at 3 34 21 PM](https://user-images.githubusercontent.com/79215638/116007060-eeef1980-a5db-11eb-9a6b-8245e4751e6c.png)
 
 ```
 ## Credits
 W3schools.com
-Chidre'sTechTutorials
+https://fonts.google.com/
+Bootstap.com
+UIkit.com
+Github.com
 The Professional Readme Guide
 
 
